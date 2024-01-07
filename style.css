@@ -1,0 +1,551 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
+}
+#header{
+    
+    margin: 5px;
+    padding: 20px opx;
+    width: 100%;
+    height: 100vh;
+    background-size: contain; 
+    background-position: right; 
+    background-repeat: no-repeat;
+   font-size: 100%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 100vh;
+    background-size: cover;
+}
+.devPic{
+    flex-basis: 60%;
+}
+.devPic img{
+    border-radius: 50%;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(94, 61, 124);
+    font-weight: 500;
+    
+}
+.container nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 15px 25px;
+    padding: 2px 6px;
+    
+}
+.container nav ul li a{
+    color: black;
+    font-size: 28px;
+   font-style: bold;
+}
+nav ul li a:hover{
+    color: blueviolet;
+
+}
+.headerText{
+   height: 100vh;
+    display: flex;
+    margin-left: 8%;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    padding: 20px 20px;
+    font-size: 26px;
+}
+
+.headerText h1{
+    color: rgb(65, 10, 116);
+}
+
+/* -----------------about me---------------*/
+.pageheading{
+    justify-content: center;
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 20px;
+    padding-top: 120px;
+    color: rgb(65, 10, 116);
+    }
+.abc{
+    display: inline;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: max-content;
+    padding: 10px;
+}
+.co1{
+    flex-basis: 30%;
+}
+.col1 img{
+    width: 200pz;
+    border-radius: 15px;
+    height: 280px;
+    margin: 10px 10px;
+}
+.col2{
+    flex-basis: 70%;
+    display: inline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+p{
+    text-align: justify;
+    font-size: 22px;
+}
+.col2 ul li{
+    list-style:square;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+/* -----------------contact me---------------*/
+
+.contactheading{
+    justify-content: center;
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 20px;
+    padding-top: 10px;
+    color: rgb(65, 10, 116);
+
+}
+
+.social-icon a{
+    size: 2em;
+}
+.contact h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.row-contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: max-content;
+    padding: 20px;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-left p{
+    font-size: 20px;
+    margin: 10PX 20px;
+}
+.socialmedia{
+    margin-left: 20px;
+}
+.socialmedia a{
+    text-decoration: none;
+    display: inline-block;
+
+}
+.socialmedia a:hover{
+    cursor: grabbing;
+}
+.contact-right{
+    flex-basis: 60%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+form input, form textarea{
+    width :100%;
+    background-color: beige;
+    margin:15px 0;
+    padding: 15px;
+    color: black;
+    font-size: 18px;
+    border: solid 1px black;
+}
+html{
+    scroll-behavior: smooth;
+    background-image: url(image/web\ bg\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* -----------------responsive--------------*/
+
+@media only screen and (max-width:768px){
+    #header{
+     margin: 5px;
+        padding: 20px opx;
+        width: 100%;
+        height: 80vh;
+        background-size: contain; 
+        background-position: right; 
+        background-repeat: no-repeat;
+       font-size: 100%;}
+
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        height: 80vh;
+        background-size: cover;
+    }
+    .devPic{
+        flex-basis: 50%;
+    }
+    .devPic img{
+        border-radius: 50%;
+        
+    }
+    
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(75, 63, 155);
+        font-weight: 500;
+        
+    }
+    .container nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 10px 20px;
+        padding: 2px 4px;
+        
+    }
+    .container nav ul li a{
+        color: black;
+        font-size: 24px;
+       font-style: bold;
+    }
+    nav ul li a:hover{
+        color: rgb(69, 37, 156);
+    
+    }
+    .headerText{
+       height: 80vh;
+        display: flex;
+        margin-left: 8%;
+        flex-direction: column;
+        text-align: left;
+        
+        padding: 20px 20px;
+        font-size: 24px;
+    }
+    
+    .headerText h1{
+        color: rgb(39, 16, 155);
+    }
+
+    .pageheading{
+        justify-content: center;
+        font-size: 60px;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 0px;
+        color: rgb(39, 16, 155);
+        }
+    .abc{
+        display: inline;
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: max-content;
+        padding: 10px;
+    }
+    .co1{
+        flex-basis:30%;
+    }
+    .col1 img{
+        width: 200pz;
+        border-radius: 15px;
+        height: 200px;
+        margin: 6px 6px;
+    }
+    .col2{
+        flex-basis: 65%;
+        display: inline;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    p{
+        text-align: justify;
+        font-size: 22px;
+    }
+    .col2 ul li{
+        list-style:square;
+        margin: 10px 0;
+        font-size: 20px;
+    }
+    .contactheading{
+        justify-content: center;
+        font-size: 60px;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 20px;
+        padding-top: 10px;
+        color: rgb(39, 16, 155);
+    
+    }
+    
+    .social-icon a{
+        size: 1em;
+    }
+    .contact h1{
+        font-size: 40px;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+    
+    .row-contact{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: max-content;
+        padding: 10px;
+    }
+    .contact-left{
+        flex-basis: 30%;
+    }
+    .contact-left p{
+        font-size: 20px;
+        margin: 10PX 20px;
+    }
+    .socialmedia{
+        margin-left: 20px;
+    }
+    .socialmedia a{
+        text-decoration: none;
+        display: block;
+    
+    }
+    .socialmedia a:hover{
+        cursor: grabbing;
+    }
+    .contact-right{
+        flex-basis: 50%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+    }
+    form input, form textarea{
+        width :100%;
+        background-color: beige;
+        margin:15px 0;
+        padding: 15px;
+        color: black;
+        font-size: 18px;
+        border: solid 1px black;
+    }
+    html{
+        scroll-behavior: smooth;
+        background-image: url(image/web\ bg3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .submit a:hover{
+        color: burlywood;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    #header{
+     margin: 5px;
+        padding: 4px 2px;
+        width: 100%;
+        height: 80vh;
+        background-size: contain; 
+        background-position: right; 
+        background-repeat: no-repeat;
+       font-size: 100%;}
+
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        height: 80vh;
+        background-size: cover;
+    }
+    .devPic{
+        flex-basis: 30%;
+        
+    }
+    .devPic img{
+        border-radius: 50%; 
+    }
+    
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(121, 39, 95);
+        font-weight: 500;
+        
+    }
+    .container nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 5px 8px;
+        padding: 2px 4px;
+        
+    }
+    .container nav ul li a{
+        color: black;
+        font-size: 24px;
+       font-style: bold;
+    }
+    nav ul li a:hover{
+        color: rgb(69, 37, 156);
+    
+    }
+    .headerText{
+       height: 80vh;
+        display: flex;
+        margin-left: 8%;
+        flex-direction: column;
+        text-align: left;
+        
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+    
+    .headerText h1{
+        color: rgb(169, 77, 177);
+    }
+
+    .pageheading{
+        justify-content: center;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 0px;
+        color: rgb(130, 54, 133);
+        }
+    .abc{
+        display: inline;
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: max-content;
+        padding: 5px;
+    }
+    .co1{
+        flex-basis:50%;
+    }
+    .col1 img{
+        width: 150pz;
+        border-radius: 15px;
+        height: 150px;
+        margin: 6px 6px;
+    }
+    .col2{
+        flex-basis: 50%;
+        display: inline;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    p{
+        text-align: justify;
+        font-size: 16px;
+    }
+    .col2 ul li{
+        list-style:square;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+    .contactheading{
+        justify-content: center;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 20px;
+        padding-top: 10px;
+        color: rgb(130, 54, 133);
+    
+    }
+    
+    .social-icon a{
+        size: 1em;
+    }
+    .contact h1{
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+    
+    .row-contact{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: max-content;
+        padding: 5px;
+    }
+    .contact-left{
+        flex-basis: 100%;
+    }
+    .contact-left p{
+        font-size: 14px;
+        margin: 6PX 20px;
+    }
+    .socialmedia{
+        margin-left: 20px;
+    }
+    .socialmedia a{
+        text-decoration: none;
+        display:inline;
+    
+    }
+    .socialmedia a:hover{
+        cursor: grabbing;
+    }
+    .contact-right{
+        flex-basis: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+    }
+
+    form input, form textarea{
+        width :100%;
+        background-color: beige;
+        margin:15px 0;
+        padding: 15px;
+        color: black;
+        font-size: 18px;
+        border: solid 1px black;
+    }
+    html{
+        scroll-behavior: smooth;
+        background-image: url(image/bg\ 1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .submit a:hover{
+        color: burlywood;
+    }
+}
+
+ 
+
+
+
